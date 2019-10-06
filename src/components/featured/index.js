@@ -1,5 +1,6 @@
 import React from 'react';
-import Carrousel from './Carrousel'
+import Carrousel from './Carrousel';
+import TimeUtil from './TimeUtil';
 
 const Featured = () => {
     return (
@@ -7,9 +8,12 @@ const Featured = () => {
             <Carrousel></Carrousel>
             <div className='artist_name'>
                 <div className='wrapper'>
-                    Ariande Grande
+                    NEW YEAR 2019
                 </div>
             </div>
+            <TimeUtil>
+
+            </TimeUtil>
         </div>
     );
 };
