@@ -8,7 +8,7 @@ const MyButton = (props) => {
         <Button
             href={props.url}
             variant='contained'
-            size='smal'
+            size='small'
             style={{background: `${props.bg_color}`, color:'white'}}
         >
             <img 
