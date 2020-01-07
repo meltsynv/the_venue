@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide';
 
 class TimeUtil extends Component {
     state = {
-        deadline: 'Dec, 31, 2019',
+        deadline: 'Jul, 17, 2020',
         days: '0',
         hours: '0',
         minutes: '0',
@@ -20,7 +20,7 @@ class TimeUtil extends Component {
             const hours = Math.floor((time / (1000 * 60 * 60) % 24));
             const days = Math.floor((time / (1000 * 60 * 60 * 24)));
 
-            this.setState({days, hours, minutes, seconds});
+            this.setState({ days, hours, minutes, seconds });
         }
     }
 

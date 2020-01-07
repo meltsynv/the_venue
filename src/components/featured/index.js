@@ -4,11 +4,11 @@ import TimeUtil from './TimeUtil';
 
 const Featured = () => {
     return (
-        <div style={{position:'relative'}}>
+        <div style={{ position: 'relative' }}>
             <Carrousel></Carrousel>
             <div className='artist_name'>
                 <div className='wrapper'>
-                    NEW YEAR 2019
+                    {'parookaville'.toUpperCase()} 2020
                 </div>
             </div>
             <TimeUtil>

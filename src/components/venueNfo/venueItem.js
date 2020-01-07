@@ -18,7 +18,7 @@ const VanueItem = () => {
                                     Eevent Date & Time
                         </div>
                                 <div className='vn_desc'>
-                                    31 December 2019 @24.00 pm
+                                    17 Juli 2020 @24.00 pm
                         </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const VanueItem = () => {
                                     Eevent Location
                         </div>
                                 <div className='vn_desc'>
-                                    345 Speer Street Oakland, CA 9835
+                                    Flughafen-Ring, Weeze
                         </div>
                             </div>
                         </div>
