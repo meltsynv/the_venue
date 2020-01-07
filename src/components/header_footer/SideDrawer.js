@@ -4,14 +4,13 @@ import { scroller } from 'react-scroll'
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import { element } from 'prop-types';
 
 const SideDrawer = (props) => {
-    const scrollToElement = (elements) =>{
-        scroller.scrollTo(elements,{
+    const scrollToElement = (elements) => {
+        scroller.scrollTo(elements, {
             duration: 1500,
-            delay:100,
-            smooth:true,
+            delay: 100,
+            smooth: true,
             offset: -150
         });
         props.onClose(false);
